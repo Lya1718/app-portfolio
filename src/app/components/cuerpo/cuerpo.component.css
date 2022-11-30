@@ -10,7 +10,7 @@ p {
     text-align: center;
 }
 
-.textoInfo {
+.textoInfo, .titleInfo {
     margin: 0 20% 0 20%;
 }
 

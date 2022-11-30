@@ -1,1 +1,80 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  scroll-behavior: smooth;
+  font-family: tahoma;
+}
+
+/* html, body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+} */
+
+/* app/styles.css */
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+color: #f1f1f1;
+}
+
+.texto {
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+app-edicion {
+  float: right;
+  cursor: pointer;
+}
+
+.custom-form {
+  position: static;
+  min-width: 349px;
+  max-width: 60%;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 4vw 3vw;
+  margin: auto 0;
+  border-radius: 2.5rem;
+  background-color: #cbced1;
+  color: black;
+  margin: auto;
+}
+
+.custom-form input {
+  display: block;
+  margin: 2rem 0;
+  width: 100%;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  border: none;
+  border: 0 none;
+  background: #f2f2f2;
+}
+
+.custom-form button {
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  border: none;
+  font-size: 0.875rem;
+  color: black;
+  font-weight: bold;
+  background-color: #f1f1f1;
+  width: 100%;
+  display: block;
+  padding: 0.875rem 1rem;
+  border-radius: 1.5rem;
+  cursor: pointer;
+}
+
+#x {
+  height: 30px;
+  float: right;
+  cursor: pointer;
+}

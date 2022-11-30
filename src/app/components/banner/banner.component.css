@@ -1,0 +1,7 @@
+img {
+    max-width: 100%;
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}

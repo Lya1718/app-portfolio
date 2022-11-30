@@ -1,0 +1,33 @@
+{
+  "about": [
+    {
+      "id": 1,
+      "title": "Sobre mí",
+      "text": "Hola! Mi nombre es Lourdes, soy una desarrolladora web ubicada en Argentina con un especial interés en la creación y diseño de obras completamente originales, autodidacta, trabajadora independiente y amante de la música."
+    }
+  ],
+  "education": [
+    {
+      "id": 1,
+      "title": "Educación Primaria",
+      "text": "E.P.E.P. N°158 'Sargento Cabral' 2009-2015"
+    },
+    {
+      "id": 2,
+      "title": "Educación Secundaria",
+      "text": "E.P.E.S. N°2 'Batalla de Maipú' 2016-2021"
+    }
+  ],
+  "cursos": [
+    {
+      "id": 3,
+      "title": "Future Learn",
+      "text": "Basic English 1: Elementary 2021 y Basic English 2: Pre-Intermediate 2021"
+    },
+    {
+      "id": 4,
+      "title": "Argentina Programa",
+      "text": "#SéProgramar 2022 y #YoProgramo 2022"
+    }
+  ]
+}

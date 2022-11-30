@@ -1,0 +1,80 @@
+<form class="custom-form"
+    method="post" 
+    *ngIf="showAddUser"
+    id="formulario"
+>
+  
+  <h1 class="texto">Login<img 
+    id="x" 
+    src="\assets\x.png" 
+    alt="Cerrar"
+    (click)="cerrar()"
+></h1>
+  <div class="register">
+    <input type="email" 
+      [(ngModel)]="email" 
+      name="email" 
+      placeholder="Email" 
+      required="required" 
+/>
+  </div>
+  <div>
+    <input type="password" 
+      [(ngModel)]="password" 
+      name="password" 
+      placeholder="Password" 
+      required="required" 
+/>
+  </div>
+  <div>
+    <input 
+    type="submit" 
+    value="Login" 
+    class="btn btn-block"
+    (click)="onClick()"
+/>
+  </div>
+<!-- </form> 
+ Modal
+<div class="noSe" *ngIf="showAddUser">
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Login</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="register">
+          <input type="email" 
+            [(ngModel)]="email" 
+            name="email" 
+            placeholder="Email" 
+            required="required" 
+      />
+        </div>
+        <div>
+          <input type="password" 
+            [(ngModel)]="password" 
+            name="password" 
+            placeholder="Password" 
+            required="required" 
+      />
+        </div>
+        <div>
+          
+      </div>
+      <div class="modal-footer">
+        <input
+        type="submit" 
+        value="Login" 
+        class="btn btn-block"
+        (click)="onClick()"
+    />
+    <button type="submit" class="btn btn-block" (click)="onClick()"
+    >Login</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div> -->
